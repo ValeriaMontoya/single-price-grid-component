@@ -1,0 +1,64 @@
+:root {
+  --font-size-small: 1.6rem;
+  --font-size-medium: 1.8rem;
+  --font-size-large: 2.8rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  max-width: 700px;
+}
+
+.first-section {
+  grid-column: 1 / 4;
+  padding: 40px 60px 40px 40px;
+}
+
+.first-section__title {
+  font-size: var(--font-size-large);
+}
+
+.first-section__subtitle {
+  font-size: var(--font-size-medium);
+}
+
+.first-section__paragraph {
+  font-size: var(--font-size-small);
+  line-height: 2.8rem;
+}
+
+.second-section {
+  grid-column: 1 / 2;
+  padding: 40px;
+  border-radius: 0 0 0 5px;
+}
+
+.second-section__title {
+  font-size: var(--font-size-medium);
+}
+
+.second-section--cost {
+  margin-bottom: 12px;
+}
+
+.second-section__paragraph--price {
+  font-size: 3.6rem;
+}
+
+.second-section__paragraph {
+  margin-bottom: 30px;
+}
+
+.third-section {
+  padding: 40px;
+  border-radius: 0 0 5px 0;
+}
+
+.third-section__title {
+  margin-bottom: 16px;
+}
+
+.third-section__list__item {
+  line-height: 2.4rem;
+}
